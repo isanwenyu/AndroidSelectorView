@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CommText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/form_title_height</item>
+        <item name="android:minHeight">@dimen/form_title_height</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:padding">@dimen/activity_padding</item>
+        <item name="android:background">@color/gray_bg</item>
+    </style>
+
+    <style name="CheckedTextSelector">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/big_text_size</item>
+        <item name="android:textColor">@color/type_text_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/activity_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/type_checkedbtn_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:minHeight="@dimen/form_title_height" >
+
+    <TextView
+        android:id="@+id/tv_title_elv"
+        style="@style/CommText"
+        android:layout_width="wrap_content"
+        android:paddingBottom="5dp"/>
+
+    <ToggleButton
+        android:id="@+id/tb_invert_elv"
+        style="@style/CommText"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="false"
+        android:paddingBottom="5dp"
+        android:textOff="反选"
+        android:textOn="全选"
+        android:visibility="gone" />
+</RelativeLayout>

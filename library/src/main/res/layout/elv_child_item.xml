@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.isanwenyu.selectorview.library.widget.FocusedCheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fct_type"
+    style="@style/CheckedTextSelector" />
